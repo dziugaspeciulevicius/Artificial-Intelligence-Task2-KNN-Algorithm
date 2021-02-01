@@ -1,8 +1,19 @@
-# This is a sample Python script.
+import pandas as pd
+import math
+from io import StringIO
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+# read data file
+df = pd.read_csv('data.csv')
 
+# read data_to_classify file
+df_no_class = pd.read_csv('data_to_classify.csv')
+
+
+
+
+# -----------------------------------------------------------------
+# -----------------------------------------------------------------
+# -----------------------------------------------------------------
 
 def print_hi(name):
     # Use a breakpoint in the code line below to debug your script.
