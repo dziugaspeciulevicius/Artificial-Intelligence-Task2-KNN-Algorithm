@@ -1,0 +1,8 @@
+#!D:\MY FILES\Studies\6 SEMESTER\AI\TASK2\TASK2\venv\Scripts\python.exe
+import asyncio
+
+from withtool.main import main
+
+loop = asyncio.get_event_loop()
+loop.run_until_complete(main())
+loop.close()
